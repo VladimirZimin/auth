@@ -31,7 +31,6 @@ const getPage = evt => {
       break;
     case 'chart':
       refs.content.innerHTML = `<h1>Chart page</h1>`;
-      getNasaData();
       break;
     case 'info':
       refs.content.innerHTML = getInfo();

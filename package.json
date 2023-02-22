@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
-  "homepage": "https://vladimirzimin.github.io/authorization",
+  "homepage": "https://vladimirzimin.github.io/auth",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /authorization/",
+    "build": "parcel build src/*.html --public-url /auth/",
     "deploy": "gh-pages -d dist",
     "server": "json-server --watch db.json -p 4040 -d 300"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vladimirzimin/authorization.git"
+    "url": "git+https://github.com/vladimirzimin/auth.git"
   },
   "keywords": [],
   "author": "Vladimir Zimin <zimin.frontend@gmail.com>",
